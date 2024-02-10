@@ -1,0 +1,26 @@
+/* Write your code here: */
+
+/* selecting multiple selectors */
+h1, h2{
+    color: blueviolet;
+}
+
+/* selecting child from parent- only one gen*/
+.box > .done{
+    color: firebrick;
+}
+
+/* descendent selector*/
+.box li {
+    color: blue;
+}
+
+/* chaining selector*/
+li.done{
+    color:seagreen;
+}
+
+/* Combining Combiners*/
+ul p.done{
+    font-size: 0.5rem;
+}
